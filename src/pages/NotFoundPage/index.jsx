@@ -1,9 +1,13 @@
-import React from 'react'
+import { Link } from "react-router-dom";
+import PageContainer from "../../components/PageContainer";
 
-const NotFoundPage = () => {
+const NotFoundPage = ({}) => {
   return (
-    <div>NotFoundPage</div>
-  )
-}
+    <PageContainer>
+      <div>404 Not found!</div>
+      <Link to="/">geri don</Link>
+    </PageContainer>
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;

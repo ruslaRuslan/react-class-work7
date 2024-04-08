@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router";
 import HomePage from "../pages/Home";
 import AboutPage from "../pages/About";
 import ContactPage from "../pages/Contact";
+import NotFoundPage from "../pages/NotFoundPage";
 
 const WebRouter = () => {
   return (
