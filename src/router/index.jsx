@@ -10,4 +10,5 @@ const WebRouter = () => {
     </Routes>
   );
 };
+
 export default WebRouter;
