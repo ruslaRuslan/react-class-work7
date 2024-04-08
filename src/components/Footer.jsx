@@ -1,6 +1,8 @@
 const Footer = () => {
   return (
-    <div>
+    <div style={{
+        backgroundColor: "red"
+    }}>
       <a href="/">Home page</a>
       <h1>logo</h1>
     </div>
