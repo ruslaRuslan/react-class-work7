@@ -1,9 +1,13 @@
-import React from 'react'
-
 const Header = () => {
-  return (
-    <div>Header</div>
-  )
-}
-
-export default Header
+    return (
+      <div style={{
+          backgroundColor: "lime"
+      }}>
+        <a href="/">Header component</a>
+        <h1>logo</h1>
+      </div>
+    );
+  };
+  
+  export default Header;
+  

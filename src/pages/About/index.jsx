@@ -1,11 +1,10 @@
-import Footer from "../../components/Footer";
+import PageContainer from "../../components/PageContainer";
 
 const AboutPage = ({}) => {
   return (
-    <>
+    <PageContainer>
       <div>Welcome to AboutPage</div>
-      <Footer />
-    </>
+    </PageContainer>
   );
 };
 
