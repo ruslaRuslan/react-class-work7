@@ -1,9 +1,9 @@
-import Input from "./components/Input";
+import WebRouter from "./router";
 
 function App() {
   return (
     <>
-      <Input />
+      <WebRouter />
     </>
   );
 }

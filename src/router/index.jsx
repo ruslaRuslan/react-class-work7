@@ -1,11 +1,11 @@
-import { Router, Route } from "react-router";
+import { Routes, Route } from "react-router";
 
 const WebRouter = () => {
   return (
-    <Router>
+    <Routes>
       <Route path="/" element={<div>salam home page</div>} />
       <Route path="/about" element={<div>salam about page</div>} />
-    </Router>
+    </Routes>
   );
 };
 export default WebRouter;
