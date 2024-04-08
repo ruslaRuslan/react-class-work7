@@ -1,10 +1,12 @@
 import { Routes, Route } from "react-router";
+import HomePage from "../pages/Home";
+import AboutPage from "../pages/About";
 
 const WebRouter = () => {
   return (
     <Routes>
-      <Route path="/" element={<div>salam home page</div>} />
-      <Route path="/about" element={<div>salam About page</div>} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<AboutPage />} />
     </Routes>
   );
 };
