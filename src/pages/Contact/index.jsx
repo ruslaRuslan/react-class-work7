@@ -1,6 +1,6 @@
 import PageContainer from "../../components/PageContainer";
 
-const ContactPage = () => {
+const ContactPage = ({}) => {
   return (
     <PageContainer>
       <div>ContactPage</div>
